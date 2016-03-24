@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+	<main>
+	
+	
+		<div id="logo">
+			<img src="fantBeastsLogo.png">
+		</div>
+	
+
+		<div id="forma">
+		<form action="skripta.php" method="GET">
+			Korisničko ime </br><input type="text" name="name"> </br></br>
+			Lozinka</br><input type="password" name="pass"> 
+			<input type="submit" value="Predaj">
+		</form>
+		</div>
+	
+		<footer>
+		<hr>
+			 Copyright 
+		</footer>
+		<div id="clear">
+</div>
+	</main>
+    </body>
+</html>

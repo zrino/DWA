@@ -1,0 +1,8 @@
+<?php
+
+	echo "bananko";
+	echo $_GET["name"];
+	echo $_GET["pass"];
+
+?>
+
