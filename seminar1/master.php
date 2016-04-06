@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-        <title>Login</title>
+        <title>Antigona</title>
+	
     </head>
     <body>
 	<div id="main">
 	
 		<div id="header">
-			<h2 id="header_text"> Kazalište Antigona </h2> 
+			<h2 id="header_text"> Kazalište Antigona </h2> 	
+			<a href="eng_sites/index_en.php"> <img src="img/english.png" class="lang_flag" height="25" width="40"> </a>
+			
 		</div>
 		<div id="sidebar_content">
 			<div id="sidebar">
@@ -21,7 +24,7 @@
 			</div>
 			
 			<div id="content">
-				<?php include($page_content) ?>
+				<?php include($page_content); ?>
 			</div>
 	
 		</div>

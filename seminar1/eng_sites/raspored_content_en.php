@@ -23,7 +23,7 @@ if ($result->num_rows > 0)
 		$time = strtotime($row["Datum"]);
 		$myFormatForView = date("d.m G:i ", $time);
 		echo '<section class="section_raspored" id="' . $cnt . '">
-		<a href="predstava.php?pid=' . $row["PID"] . '"> <h2> ' . $row["Naziv"] . ' </h2>
+		<a href="predstava_en.php?pid=' . $row["PID"] . '"> <h2> ' . $row["Naziv"] . ' </h2>
 		 </a>
 		<p class="datum">' . $myFormatForView . '</p>
 		<p class="cijena">' . $row["Cijena"] . ' kn</p>

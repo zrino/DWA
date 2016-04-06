@@ -9,7 +9,7 @@ html,body
 body
 {
 	
-	background-image: url('background');
+	background-image: url('img/background.jpg');
 	background-size: 100%;
 }
 #main
@@ -86,23 +86,21 @@ body
 	text-decoration:none;
 	color:black;
 }
+#content section p,h2
+{
+	margin:10px 10px 10px 10px;
+}
 .datum
 {
-	display:inline;
-	text-align:left;
+	
+	
 	
 }
-.vrijeme
-{
-	display:inline;
-	text-align:center;
-	
-}
+
 .cijena
 {
 	
-	display:inline;
-	text-align:right;
+	
 }
 
 #footer
@@ -121,4 +119,30 @@ body
 	margin:auto;
 	height:100%;
 	background-color:white;
+}
+.section_glumac
+{
+	height:10%;
+	width:100%;
+}
+.cijena
+{
+	text-align:right;
+}
+.predstava_img
+{
+	float:right;
+	margin:0 10px 10px 10px;
+}
+.opis
+{
+	border-bottom:solid black 1px;
+}
+.popis_glumaca
+{
+	padding:10px 20px 20px 20px;
+}
+section h5
+{
+	padding:0 20px 0 20px;
 }

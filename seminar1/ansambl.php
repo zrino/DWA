@@ -1,4 +1,7 @@
 <?php
 $page_content = 'ansambl_content.php';
-include('master.php');
+include_once('master.php');
+
+
+
 ?>
