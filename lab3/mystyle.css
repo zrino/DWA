@@ -1,0 +1,40 @@
+html,body
+{
+	
+	height:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+body
+{
+background-color:#2D882D;
+
+}
+
+main
+{
+	background-color:#2D882D;
+	min-height:100%;
+	width:75%;
+	margin:auto;
+	position:relative;
+}
+#content
+{
+	padding-bottom:100px;
+}
+#footer
+{
+	background-color:#9D882D;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#tablica
+{
+	background-color:white;
+	
+}
