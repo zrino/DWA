@@ -1,0 +1,16 @@
+U bazi podataka imamo 7 tablica.
+
+Tablica Korisnici-> sadrži podatke o korisniku koji æe se koristiti prilikom 		    		    kupovine karte te podatak o pravu pristupa
+
+Tablica Upiti-> sadrži upit te podatke osobe koja je poslala taj upit ukljuèujuæi 			i vrijeme kada je upit primljen	
+
+Tablica Vijesti-> sadrži sve unesene vijesti( na hrvatskom i engleskom jeziku) 
+		  te njihov trenutni status prikaza
+
+Tablica Prodajna_mjesta-> sadrži podatke o prodajnim mjestima (adresa, broj 			  telefona, radno vrijeme)
+
+Tablica Polazište-> sadrži naziv mjesta polazišta te njegov ID
+
+Tablica Odredište-> sadrži naziv mjesta odredišta te njegov ID
+
+Tablica Linije-> sadrži sve kombinacije polazišta i odredišta preko njihovih ID-eva 		 te datum i vrijeme polaska
